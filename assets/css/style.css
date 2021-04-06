@@ -1,0 +1,49 @@
+.nav_title{
+    margin: auto;
+    font-size: 30px;
+}
+
+.hyper_text{
+    text-decoration: none;
+    color: white;
+}
+
+.card-fix{
+    width: 18rem;
+    left: 40px;
+    top: 10px;
+}
+
+.button-fix{
+    position: relative;
+    top: 30px;
+}
+
+#videoBack {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 515px;
+}
+
+.button-group-fix{
+    position: relative;
+    left: 37px;
+}
+
+.card_fix2{  
+    margin: auto; 
+    top: 30px; 
+    background-color: rgba(245, 245, 245, 1);
+    opacity: .9;
+}
