@@ -37,7 +37,7 @@
         $students = $this->GetList();
         $studentId = $this->GetById($item->id);
 
-        if($studentId != null && count($studentId) > 0 ){
+        if($studentId != null  ){
       
             $index = $this->utilities->getIndexElement($students,"id",$item->id);
             $students[$index] = $item;
@@ -51,7 +51,7 @@
         $students = $this->GetList();
         $studentId = $this->GetById($item->id);
 
-        if($studentId != null && count($studentId) > 0 ){
+        if($studentId != null){
       
             $index = $this->utilities->getIndexElement($students,"id",$item->id);
             unset($students[$index]);
