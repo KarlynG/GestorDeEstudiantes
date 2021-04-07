@@ -7,7 +7,6 @@
     private $utilities;
 
     public function __construct(){
-        session_start();
         $this ->CookieName = "students";
         $this ->utilities = new UtilitiesTest();
 
